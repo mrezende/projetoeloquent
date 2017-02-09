@@ -1,18 +1,10 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Editora</title>
-    <link rel="stylesheet" type="text/css" href="/css/app.css" />
-  </head>
-  <body>
+@extends('layout')
 
-    <div class="container">
+@section('title', 'Detalhes da editora')
 
-      <div class="page-header">
-        <h1>Detalhes da editora</h1>
-      </div>
+@section('page-header-content', 'Detalhes da editora')
 
+@section('content')
       <div class="row">
         <div class="col-md-6">
           <div class="panel panel-primary">
@@ -26,9 +18,4 @@
           </div>
         </div>
       </div>
-
-    </div>
-
-    <script type="text/javascript" src="/js/app.js" >
-  </body>
-</html>
+@endsection

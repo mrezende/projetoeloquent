@@ -21,3 +21,7 @@ Route::get('/editoras', 'EditoraController@index');
 
 // Rota para url 'editoras/1', por exemplo
 Route::get('/editoras/{editora}', 'EditoraController@show');
+
+Route::get('/livros', 'LivroController@index');
+
+Route::get('/livros/{livro}', 'LivroController@show');

@@ -1,17 +1,11 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Listagem das Editoras</title>
-    <link rel="stylesheet" type="text/css" href="/css/app.css" />
-  </head>
-  <body>
+@extends('layout')
 
-    <div class="container">
+@section('title', 'Listagem das editoras')
 
-      <div class="page-header">
-        <h1>Listagem de editoras</h1>
-      </div>
+@section('page-header-content', 'Listagem das editoras')
+
+@section('content')
+
 
       <div class="row">
 
@@ -56,9 +50,4 @@
         </div>
 
       </div>
-
-    </div>
-
-    <script type="text/javascript" src="/js/app.js" >
-  </body>
-</html>
+@endsection
